@@ -1,0 +1,21 @@
+site:
+  title: OpenCPN Manuals
+  # the 404 page and sitemap files only get generated when the url property is set
+  url: https://github.com/Rasbats/opencpn-manuals
+  start_page: opencpn-manuals::index.adoc
+  
+  
+content:
+  sources:   
+    - url: https://github.com/Rasbats/opencpn-manuals
+      branches: main
+      start_paths: 
+      - manuals
+
+ui:   
+  bundle:
+      url: ./ui-bundle.zip
+      snapshot: true  
+
+output:
+  dir: ./docs

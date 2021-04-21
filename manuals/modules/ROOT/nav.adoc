@@ -1,0 +1,9 @@
+* xref:index.adoc[Home Page]
+
+* OpenCPN Manuals
++
+--
+include::partial$manuals.adoc[]
+--
+*
+
